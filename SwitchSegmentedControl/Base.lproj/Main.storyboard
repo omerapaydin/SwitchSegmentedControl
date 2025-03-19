@@ -31,6 +31,9 @@
                                     <segment title="First"/>
                                     <segment title="Second"/>
                                 </segments>
+                                <connections>
+                                    <action selector="segment:" destination="BYZ-38-t0r" eventType="valueChanged" id="6sJ-gr-BwO"/>
+                                </connections>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLJ-Dx-hfr">
                                 <rect key="frame" x="159" y="483" width="75" height="35"/>
@@ -53,6 +56,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="segmentIn" destination="BiC-ij-RYF" id="Fhu-oy-SdN"/>
                         <outlet property="swtchUI" destination="O0r-B3-hJG" id="pgc-pf-Yxw"/>
                     </connections>
                 </viewController>
